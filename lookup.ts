@@ -14,7 +14,7 @@ console.log("Performing DNS lookup, this will take a while...");
 
 let counter = 0;
 
-for await (const domain of Object.keys(domains).slice(5000, 8000)) {
+for await (const domain of Object.keys(domains).slice(8000, 15000)) {
   if (domains[domain] === null) {
     console.log(`Resolving "${domain}":`);
 
